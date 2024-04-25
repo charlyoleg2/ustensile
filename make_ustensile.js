@@ -22,9 +22,9 @@ function getCmd(dName, fName) {
 	const rCmd = [];
 	//rCmd.push('pwd');
 	//rCmd.push(`ls refs/${dName}`);
-	//rCmd.push(`npx desi78-cli -d=desi78/${desiName} -o=refs/${dName} --outFileName=px_${fName}.json write json_param`);
-	rCmd.push(`npx desi78-cli -d=desi78/${desiName} -p=refs/${dName}/px_${fName}.json -o=refs/${dName} --outFileName=${fName}.scad write scad_3d_openscad`);
-	rCmd.push(`openscad -o refs/${dName}/${fName}.stl refs/${dName}/${fName}.scad`);
+	rCmd.push(`npx desi82-cli -d=desi82/${desiName} -o=refs/${dName} --outFileName=px_${fName}.json write json_param`);
+	//rCmd.push(`npx desi82-cli -d=desi82/${desiName} -p=refs/${dName}/px_${fName}.json -o=refs/${dName} --outFileName=${fName}.scad write scad_3d_openscad`);
+	//rCmd.push(`openscad -o refs/${dName}/${fName}.stl refs/${dName}/${fName}.scad`);
 	//rCmd.push(`npx shx rm -fr refs/${dName}`);
 	return rCmd
 }

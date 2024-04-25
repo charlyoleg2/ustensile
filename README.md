@@ -29,7 +29,7 @@ sudo snap install openscad
 Upgrade
 -------
 
-For working with the latest *desi78* version:
+For working with the latest *desi82* version:
 
 ```bash
 npm outdated
@@ -46,9 +46,9 @@ git clone https://github.com/charlyoleg2/ustensile
 cd ustensile
 npm install
 npm run
-npm run desi78-uis
-npx desi78-uis
-npx desi78-cli --help
+npm run desi82-uis
+npx desi82-uis
+npx desi82-cli --help
 ./make_ustensile.js
 ```
 
