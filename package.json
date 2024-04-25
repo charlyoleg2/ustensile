@@ -1,0 +1,37 @@
+{
+	"name": "ustensile",
+	"version": "0.0.1",
+	"description": "parameters and stl for ustensile",
+	"private": true,
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/charlyoleg2/ustensile.git"
+	},
+	"homepage": "https://github.com/charlyoleg2/ustensile#readme",
+	"author": "charlyoleg2",
+	"license": "ISC",
+	"keywords": [
+		"desi78",
+		"parametrix"
+	],
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"desi78-uis": "desi78-uis",
+		"desi78-cli": "desi78-cli",
+		"desi78-cli-help": "desi78-cli --help",
+		"doorstop_list-outopt": "desi78-cli --design desi82/doorstop list-outopt",
+		"doorstop_json_param": "desi78-cli --design=desi82/doorstop write json_param",
+		"doorstop_openscad_long": "desi78-cli --design=desi82/doorstop --param=refs/doorstop/px_doorstop_v01.json --outDir=refs/doorstop --outFileName=doorstop_v01.scad write scad_3d_openscad",
+		"doorstop_openscad": "desi78-cli -d=desi82/doorstop -p=refs/doorstop/px_doorstop_v01.json -o=refs/doorstop --outFileName=doorstop_v01.scad write scad_3d_openscad",
+		"doorstop_view": "openscad refs/doorstop/doorstop_v01.scad",
+		"doorstop_stl": "openscad -o refs/doorstop/doorstop_v01.stl refs/doorstop/doorstop_v01.scad",
+		"make_ustensile": "node make_ustensile.js",
+		"git_clean": "git clean -f",
+		"ls_output": "ls -ltra output"
+	},
+	"devDependencies": {
+		"desi78-cli": "^0.1.5",
+		"desi78-uis": "^0.1.5"
+	}
+}
