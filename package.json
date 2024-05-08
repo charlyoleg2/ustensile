@@ -31,7 +31,7 @@
 		"ls_output": "ls -ltra output"
 	},
 	"devDependencies": {
-		"desi82-cli": "^0.1.2",
-		"desi82-uis": "^0.1.2"
+		"desi82-cli": "^0.1.4",
+		"desi82-uis": "^0.1.4"
 	}
 }
