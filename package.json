@@ -28,7 +28,7 @@
 		"doorstop_stl": "openscad -o refs/doorstop/doorstop_v01.stl refs/doorstop/doorstop_v01.scad",
 		"make_ustensile": "node make_ustensile.js",
 		"git_clean": "git clean -f",
-		"ls_output": "ls -ltra output"
+		"ls_refs": "ls -ltra refs"
 	},
 	"devDependencies": {
 		"desi82-cli": "^0.1.4",
