@@ -1,5 +1,6 @@
 # .gitignore
 /node_modules/
+/refs/node_modules/
 build
 dist
 tmp

@@ -28,6 +28,8 @@
 		"doorstop_stl": "openscad -o refs/doorstop/doorstop_v01.stl refs/doorstop/doorstop_v01.scad",
 		"make_ustensile": "node make_ustensile.js",
 		"git_clean": "git clean -f",
+		"install_jscad": "npm install --prefix=refs @jscad/cli",
+		"check_jscad": "npx --prefix=refs jscad -v",
 		"ls_refs": "ls -ltra refs"
 	},
 	"devDependencies": {
