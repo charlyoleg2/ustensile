@@ -35,6 +35,7 @@
 	},
 	"devDependencies": {
 		"desi82-cli": "^0.1.10",
-		"desi82-uis": "^0.1.10"
+		"desi82-uis": "^0.1.10",
+		"shx": "^0.3.4"
 	}
 }
