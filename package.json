@@ -34,8 +34,8 @@
 		"ls_refs": "ls -ltra refs"
 	},
 	"devDependencies": {
-		"desi82-cli": "^0.1.11",
-		"desi82-uis": "^0.1.11",
+		"desi82-cli": "^0.1.12",
+		"desi82-uis": "^0.1.12",
 		"shx": "^0.3.4"
 	}
 }
