@@ -33,7 +33,7 @@ function getCmd(dName, fName) {
 	// FreeCAD
 	//rCmd.push(`npx desi82-cli -d=desi82/${desiName} -p=refs/${dName}/px_${fName}.json -o=refs/${dName} --outFileName=${fName}.py write py_3d_freecad`);
 	//rCmd.push(`freecad.cmd refs/${dName}/${fName}.py refs/${dName}/${fName}_fc`);
-	//rCmd.push(`npx shx rm -fr refs/${dName}`);
+	//rCmd.push(`npx rimraf refs/${dName}`);
 	return rCmd
 }
 
